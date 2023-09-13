@@ -1,40 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-    <style>
-        body {
-            font-family: "Gill Sans", sans-serif;
-            margin-top: 10;
-            padding-top: 0;
-        }
-        h1 {
-            margin-bottom: -10;
-        }
-        button {
-            font-family: "Gill Sans", sans-serif;
-			float: right;
-			clear: both;
-			margin: 5px;
-		}
-    </style>
-</head>
-<body>
-    <h1>Sean Li</h1>
-    <p style = "text-indent: 50px;"><em>Computer Science Portfolio</em></p>
-    <button onclick = "window.location.href='home.html'">Home</button>
-	<button onclick = "window.location.href='about.html'">About</button>
-	<button onclick = "window.location.href='cs-portfolio.html'">CS Portfolio</button>
-	<button onclick = "window.location.href='resume.html'">Resume</button>
-    <hr>
-    <p style = "text-align: center; text-indent: 100px; margin-right: 100px;"><em>The following sections describe the projects and relevant coursework I have taken apart in, with the LuCelegans project being a particular favorite.</em></p>
-    <hr>
-    <div style="overflow: hidden;">
-        <img src="treasure-hunt.jpg" width="150" height="150" alt="Major-related Courses" style="float: left; margin-right: 10px;">
-        <p style="text-align: left; margin-bottom: -10;">Major-related Courses</p>
-        <p style = "text-align: left; margin-right: 600px;">Click here for a list of all of my computer science related courses. Additionallly, I will also be minoring in Buisness at the Ross School of Buisness so those completed classes are included as well. My expected graduation date is May 2025.</p>
-    </div>    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SNL Web!</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Work Experience</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, my name's <strong>Sean!</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Computer Scientist and Stephen M. Ross Buisness Minor at the University of Michigan</p>
+            <img src="img/me and panda.png" alt= "a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Experience</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Sensors/Circuits & Build/Fabrication Team</h3>
+                    <p>
+                        I've been an active participant for the LuCelegans team at the University of Michigan
+                        since December of 2022. I am extremely grateful to be able to work with 4 other students and 2 professors to bring 
+                        to life a 3D interactive model of the only fully mapped organism. 
+                    </p>
+                    
+                </div> <!-- / service -->
+                    
+                <div class="service">
+                    <h3>Physiology Research Intern</h3>
+                    <p>
+                        Working with a few professors and postdocs in the UMich Physiology department, I was in charge of implementing/improving pipelines, quantifying data 
+                        and image process photos taken from a high-end (Leica) microscope.
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Data Analyst @ MDST</h3>
+                    <p>
+                        With the Michigan Data Science Team, I've contributed to multiple projects, including a machine learning predictive crossword solver.
+                        In addition, I've worked with a few others to help design the projects that the team will be exploring next semester!
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">Projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">In Progress Software Engineer from Michigan</p>
+           
+           <div class="about-me__body">
+               <p>
+                Hi! I'm currently a junior studying computer science and business at the Univeristy of Michigan. I have lived in multiple different places growing up (even internationlly) but predominately lived in Troy, MI.
+                I'm currently a member of the LuCelegans team working for Professor Eleni Gourgou under the program FEAST (Faculty Engineering/Arts Student Teams) at the Univeristy of Michigan. This semester some of courses I'm taking are computer organization and computer science foundations
+                while looking for an internship for this coming 2024 summer. If you happen to be a recruiter or anyone curious feel free to send me an email 😊 (email found below)
+               </p>
+    
+           </div>
+           
+           <img src="img/homies.png" alt="In front of Tokyo Station (left is me)" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Some Snippets of my Projects!</p>
+            
+            <div class="portfolio">
+                <!-- 1 -->
+                <a href="https://elenigourgou.engin.umich.edu/the-lucelegans-project/" target = "_blank" class="portfolio__item">
+                    <h4>
+                        LuCelegans Website
+                    </h4>
+                    <img src="img/lucelegans.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- 2 -->
+                <a href="https://truttmann.lab.medicine.umich.edu/" target = "_blank" class="portfolio__item">
+                    <h4>
+                        C. Elegans Physiology Research
+                    </h4>
+                    <img src="img/c.elegans.png" alt="" class="portfolio__img">
+                </a>
+                
+                
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:seannli@umich.edu" class="footer__link">seannli@umich.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target = "_blank" href="https://www.linkedin.com/in/sean-li-5280b2249/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target = "_blank" href="https://www.instagram.com/_sean_li_/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target = "_blank" href="https://github.com/seannli">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
 </html>
