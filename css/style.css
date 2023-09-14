@@ -339,7 +339,7 @@ header {
     margin: 0 auto;
 }
 
-.about-me__img {
+.about-me__pics {
     box-shadow: var(--bs);
 }
 
@@ -370,7 +370,7 @@ header {
         padding-right: calc(200px + 4em);
     }
     
-    .about-me__img {
+    .about-me__pics {
         grid-area: img;
         position: relative;
         z-index: 2;
