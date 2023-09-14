@@ -243,7 +243,7 @@ header {
 /*  Intro section  */
 
 .intro {
-    position: center;
+    position: relative;
 }
 
 .intro__img {
