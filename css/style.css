@@ -8,8 +8,9 @@
 
 :root {
     /* --ff-primary: 'Source Sans Pro', sans-serif; */
+    /* --ff-secondary: 'Source Code Pro', monospace; */
     --ff-primary: "Comic Sans MS", "Comic Sans";
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-secondary: "Comic Sans MS", monospace;
     
     --fw-reg: 300;
     --fw-bold: 800;
