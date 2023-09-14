@@ -246,9 +246,9 @@ header {
     top: 0;
     bottom: 0;
     left: 0; /* Position to the left */
-    width: 250px; /* Width of the sidebar */
+    width: 300px; /* Width of the sidebar */
     z-index: 100;
-    transform: translateX(100%);  /* Initially hides the sidebar by moving it to the right */
+    transform: translateX(-100%);  /* Initially hides the sidebar by moving it to the right */
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
