@@ -7,7 +7,8 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    /* --ff-primary: 'Source Sans Pro', sans-serif; */
+    --ff-primary: "Comic Sans MS", "Comic Sans";
     --ff-secondary: 'Source Code Pro', monospace;
     
     --fw-reg: 300;
@@ -288,7 +289,7 @@ header {
 
 .my-experiences {
     background-color: var(--clr-light);
-    /* background-image: url("images/white.jpg"); */
+    background-image: url(../img/experiences-bg.jpg);
     background-size: cover;
     color: var(--clr-dark);
     text-align: center;
