@@ -246,7 +246,6 @@ header {
     top: 0;
     bottom: 0;
     right: 0; /* Position to the right */
-    left: 0;
     width: 300px; /* Width of the sidebar */
     z-index: 100;
     transform: translateX(100%);  /* Initially hides the sidebar by moving it to the right */
@@ -285,10 +284,10 @@ header {
     top: 1em;
     z-index: 1000;
 }
-
+/* 
 .nav-open .nav {
-    transform: translateX(0);  /* Move sidebar to its original position to show it */
-}
+    transform: translateX(0); 
+} */
 
 .nav-open .nav-toggle {
     position: fixed;
