@@ -250,7 +250,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
-    max-width: 500 px;
+    max-width: 500px;
     max-height: auto;
 }
 
