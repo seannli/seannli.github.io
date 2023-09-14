@@ -310,6 +310,8 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    max-width: 350px;
+    max-height: auto;
 }
 
 .section__subtitle--intro {
