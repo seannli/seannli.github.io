@@ -152,7 +152,7 @@ header {
     top: 0;
     bottom: 0;
     right: 0; /* Position to the right */
-    width: 300px; /* Width of the sidebar */
+    width: 20%; /* Width of the sidebar */
     z-index: 100;
     transform: translateX(100%);  /* Initially hides the sidebar by moving it to the right */
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
