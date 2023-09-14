@@ -402,6 +402,7 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    border-radius: 50%;
 }
 
 .portfolio__item:focus {
