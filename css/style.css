@@ -288,9 +288,8 @@ header {
 
 .my-services {
     background-color: var(--light);
-    background-image: url("images/white.jpg");
+    /* background-image: url("images/white.jpg"); */
     background-size: cover;
-    /* background-blend-mode: multiply; */
     color: var(--dark);
     text-align: center;
 }
