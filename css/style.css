@@ -245,10 +245,10 @@ header {
     color: var(--clr-light);
     top: 0;
     bottom: 0;
-    left: 0;  /* start from left */
-    width: 250px;  /* define width for the sidebar */
+    right: 0; /* Position to the right */
+    width: 250px; /* Width of the sidebar */
     z-index: 100;
-    transform: translateX(-100%);  /* hide by default by pushing it to the left */
+    transform: translateX(100%);  /* Initially hides the sidebar by moving it to the right */
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
@@ -286,7 +286,7 @@ header {
 }
 
 .nav-open .nav {
-    transform: translateX(0);  /* show the sidebar */
+    transform: translateX(0);  /* Move sidebar to its original position to show it */
 }
 
 .nav-open .nav-toggle {
