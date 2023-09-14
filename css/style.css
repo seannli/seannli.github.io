@@ -7,8 +7,6 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    /* --ff-primary: 'Source Sans Pro', sans-serif; */
-    /* --ff-secondary: 'Source Code Pro', monospace; */
     --ff-primary: 'Lato', sans-serif;
     --ff-secondary: 'Lato', monospace;
     
@@ -245,7 +243,7 @@ header {
 /*  Intro section  */
 
 .intro {
-    position: relative;
+    position: center;
 }
 
 .intro__img {
