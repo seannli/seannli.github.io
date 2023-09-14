@@ -250,6 +250,10 @@ header {
     box-shadow: var(--bs);
     max-width: 500px;
     max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .section__subtitle--intro {
