@@ -9,8 +9,8 @@
 :root {
     /* --ff-primary: 'Source Sans Pro', sans-serif; */
     /* --ff-secondary: 'Source Code Pro', monospace; */
-    --ff-primary: "Trebuchet MS", sans-serif;
-    --ff-secondary: "Trebuchet MS", monospace;
+    --ff-primary: 'Lato', sans-serif;
+    --ff-secondary: 'Lato', monospace;
     
     --fw-reg: 300;
     --fw-bold: 800;
@@ -78,11 +78,11 @@ strong { font-weight: var(--fw-bold) }
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
-    font-size: .7rem;
+    font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: var(--fw-bold);
-    transition: transform 200ms ease-in-out;
+    transition: transform 250ms ease-in-out;
 }
 
 .btn:hover {
@@ -344,7 +344,7 @@ header {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     .about-me {
         background-color: var(--clr-dark);
         display: grid;
