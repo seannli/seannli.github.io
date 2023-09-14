@@ -38,7 +38,6 @@
 
 /* General styles */
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -49,7 +48,7 @@ body {
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 section {
@@ -332,7 +331,6 @@ header {
         margin-left: 2em;
     }
 }
-
 
 .about-me {
     background-color: var(--clr-dark);
