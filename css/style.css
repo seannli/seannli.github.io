@@ -250,6 +250,7 @@ header {
     z-index: 100;
     transform: translateX(-100%);  /* Initially hides the sidebar by moving it to the right */
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+    font-size: 500;
 }
 
 .nav__list {
