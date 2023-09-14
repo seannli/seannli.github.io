@@ -258,16 +258,16 @@ header {
     display: inline-block;
 }
 
-@media (min-width: 500) {
+@media (min-width: 500px) {
     .intro {
         display: grid;
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas: 
-            "img title"
-            "img subtitle";
-        grid-template-columns: min-content max-content;
+            "title img"
+            "subtitle img";
+        grid-template-columns: max-content min-content;
     }
     
     .intro__img {
@@ -279,12 +279,12 @@ header {
     
     .section__subtitle--intro {
         align-self: start;
-        grid-column: -1 / 1;
+        grid-column: 1;
         grid-row: 2;
-        text-align: right;
+        text-align: left;
         position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+        left: 1.5em;
+        width: calc(100% - 1.5em);
     }
 }
 
