@@ -419,7 +419,7 @@ header {
 /* footer */
 
 .footer {
-    background: rgb(65, 64, 64);
+    background: rgb(33, 32, 32);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
