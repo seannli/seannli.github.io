@@ -387,12 +387,14 @@ header {
     width: 100%; /* Ensuring the portfolio covers the entire width */
     margin: 0;   /* Removing any potential margins */
     padding: 0;  /* Removing any potential paddings */
+    box-sizing: border-box;
 }
 
 .portfolio__item {
     width: 100%; /* Making sure the item covers the full width of its parent container */
     padding-bottom: 10vh;
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
+    background: var(#002038ac);
     overflow: hidden;
 }
 
