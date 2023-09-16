@@ -393,7 +393,7 @@ header {
     width: 100%; /* Making sure the item covers the full width of its parent container */
     padding-bottom: 10vh;
     /* background: var(--clr-accent); */
-    background: #013257ac;
+    background: #2aadefac;
     overflow: hidden;
 }
 
