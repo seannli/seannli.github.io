@@ -392,8 +392,8 @@ header {
 .portfolio__item {
     width: 100%; /* Making sure the item covers the full width of its parent container */
     padding-bottom: 10vh;
-    background: var(--clr-accent);
-    /* background: var(#013257ac); */
+    /* background: var(--clr-accent); */
+    background: #013257ac;
     overflow: hidden;
 }
 
